@@ -1,0 +1,13 @@
+- name: loops
+  hosts: local
+  connection: local
+  become: yes
+  tasks:
+  - name: print names
+    ansible.builtin.package:
+      name: " {{ item }}" # item is reserved key word
+      state: latest
+    loop:
+    - nginx
+    - mysql
+    - zip
