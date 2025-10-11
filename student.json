@@ -1,0 +1,22 @@
+{
+    "name": "Siva Bommidi",
+    "dob": "01-01-01",
+    "addresses":[
+        {
+            "type": "current",
+            "doono": "1-23",
+            "street": "gandhi nagar",
+            "city": "hyd",
+            "pin": 50083
+        },
+        {
+            "type": "perm",
+            "doono": "1-23",
+            "street": "gandhi nagar",
+            "city": "hyd",
+            "pin": 50083
+        }
+        
+    ],
+    "skills": ["java","devops","cloud"]
+}

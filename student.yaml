@@ -1,0 +1,18 @@
+- name: "siva bommidi"
+  dob: "01-01-01"
+  age: 21
+  addresses:
+    # object
+  -  doorNu: 4-32
+     street: "gandhi nager"
+     city: hyderabad
+     pin: 534565
+     type: current
+
+     -  doorNu: 4-32
+     street: "gandhi nager"
+     city: hyderabad
+     pin: 534565
+     type: current
+
+
