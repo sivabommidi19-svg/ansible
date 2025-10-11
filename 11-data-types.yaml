@@ -4,7 +4,7 @@
 #  vars:
 #    course: "DevOps With AWS" # String
 #    Duration: 120 #numbers
-#   is_Live: true # Boolean
+#    is_Live: true # Boolean
 #    # List
 #    tools: #["Linux","Shell", "ansible"]
 #    - "Linux"
