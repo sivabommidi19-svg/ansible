@@ -1,4 +1,4 @@
-- nume: conditions
+- name: conditions
   hosts: local
   connection: local
   vars:
