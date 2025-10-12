@@ -1,4 +1,4 @@
-- name: funtionss
+- name: functions
   hosts: local
   connection: local
   vars:
@@ -28,6 +28,6 @@
       msg: "Tags are: {{ tags | dict2items }}"
 
   - name: convert list into map
-      ansible.builtin.debug:
+    ansible.builtin.debug:
         msg: "tag map: {{ listTags | items2dict }}"
 
